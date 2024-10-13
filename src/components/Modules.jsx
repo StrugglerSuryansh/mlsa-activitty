@@ -27,11 +27,12 @@ const Modules = () => {
         </a>
 
       </div>
-        <button
-          className=" text-sm md:text-xl border-[1px] border-primary font-medium px-8 py-4 rounded-xl shadow-xl transition duration-300 ease-in-out transform hover:scale-105 "
-        >
-          Submit your details here, and stand a chance to win exciting prizes
-        </button>
+      <button
+  className="text-sm md:text-xl border-[1px] border-primary font-medium px-8 py-4 rounded-xl shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
+  onClick={() => window.open("https://forms.office.com/r/C8UTQ2fu56", "_blank")}
+>
+  Submit your details here, and stand a chance to win exciting prizes
+</button>
     </section>
   );
 };
