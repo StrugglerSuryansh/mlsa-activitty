@@ -9,7 +9,8 @@ import Over from './components/Over';
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <Over/>
+      <Over/>  
+      {/* just remove the comments below to make the site functional */}
       
       {/* <Header />
       <ActivityZone /> 
