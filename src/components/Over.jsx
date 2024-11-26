@@ -7,7 +7,7 @@ const Over = () => {
     setIsClicked(true);
     setTimeout(() => {
       setIsClicked(false);
-      window.open("https://linktr.ee/mlsa_miet", "_blank");
+      window.open("https://linktr.ee/mlsamiet", "_blank");
     }, 300); // Animation duration before opening the link
   };
 
