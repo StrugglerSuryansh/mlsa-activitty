@@ -1,7 +1,8 @@
 
-# React App with Modular Components
+# MLSA_MIET Activity Zone
 
 This project is a modular React application featuring a clean and responsive design. The app incorporates multiple components for seamless navigation and content display.
+![image](https://github.com/user-attachments/assets/3bd8881a-abf2-4f59-82b4-db5b7b49523e)
 
 ## Project Structure
 
