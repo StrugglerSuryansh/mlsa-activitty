@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
 // import { SiLinktree } from "react-icons/si";
+import Commudle from '../images/commudle.svg';
 import { FaCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
             <a href='https://x.com/MlsaMiet' className='text-3xl text-primary'><FaXTwitter /></a>
             <a href='https://chat.whatsapp.com/DXjoWMoEPsfBeCrVtBJNqc' className='text-3xl text-primary'><FaWhatsappSquare /></a>
             <a href='https://www.commudle.com/communities/microsoft-learn-student-ambassadors-meerut-institute-of-engineering-and-technology' className='text-3xl text-primary'>
-            <img className='h-10 pb-1' src="https://www.commudle.com/assets/images/commudle-logo192.png" alt=""/>
+            <img className='w-8' src={Commudle} alt=""/>
             {/* <SiLinktree />  */}
             </a>
           </div>
